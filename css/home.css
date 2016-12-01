@@ -1,0 +1,106 @@
+body {
+	color: #585e64;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	opacity: 0.83;
+	padding-right: 40px;
+	width: 100%;
+	z-index: 9999;
+}
+
+.affix {
+	top: 0;
+}
+
+.company-header {
+	height: 150px;
+	background-color: #ffffff;
+	text-align: center;
+	opacity: 0.83;
+}
+
+.company-name {
+	padding-left: 10px;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	color: #298A08;
+	visibility: hidden;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.content-container {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: none;
+}
+
+.card-image {
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.card {
+	box-shadow: none;
+}
+
+#video-text h1 {
+	color: #fff;
+	font-size: 75px;
+	font-weight: 800;
+	padding-bottom: 0px;
+}
+
+video#bgvid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+#about {
+	background:
+	    linear-gradient(
+	      rgba(0, 0, 0, 0.35),
+	      rgba(0, 0, 0, 0.35)
+	    ),
+	    url(../img/massage.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+#about h3 {
+	padding-bottom: 20px;
+}
+
+hr {
+	width: 10%;
+	background-color: #298A08;
+	color: #298A08;
+	height: 3px;
+	border: none;
+}
+
+a:hover {
+	color: #298A08;
+}
